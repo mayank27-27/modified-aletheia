@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: Aletheia
+Version: 0.2
+Summary: Image steganalysis using state-of-the-art machine learning techniques
+Download-URL: https://github.com/daniellerch/aletheia
+Author: Daniel Lerch Hostalot
+Author-email: dlerch@gmail.com
+License: MIT
+License-File: LICENSE.txt
+Requires-Dist: imageio
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tensorflow
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: hdf5storage
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: steganogan
+Requires-Dist: python-magic
+Requires-Dist: efficientnet
+Requires-Dist: Pillow
+Dynamic: author
+Dynamic: author-email
+Dynamic: download-url
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: summary

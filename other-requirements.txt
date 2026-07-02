@@ -1,0 +1,4 @@
+liboctave-dev
+imagemagick
+steghide
+outguess

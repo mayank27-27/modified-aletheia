@@ -1,0 +1,14 @@
+imageio
+numpy
+scipy
+tensorflow-macos==2.15.0
+tensorflow-metal
+scikit-learn
+pandas
+hdf5storage
+h5py
+matplotlib
+steganogan
+python-magic
+efficientnet
+Pillow
