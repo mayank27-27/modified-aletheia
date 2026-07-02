@@ -298,15 +298,10 @@ class NN:
             mixed_precision.set_global_policy('mixed_float16')
 
         base_model = efn.EfficientNetB0(
-            input_shape=input_shape,
-            weights=None,
-            include_top=False
+        input_shape=input_shape,
+        weights="imagenet",
+        include_top=False
         )
-
-        init_path = os.path.join(self.model_dir, "effnetb0-init.h5")
-        if not os.path.isfile(init_path):
-            raise FileNotFoundError(f"Missing local EfficientNet weights: {init_path}")
-        base_model.load_weights(init_path)
 
         model = tf.keras.Sequential([
             base_model,
